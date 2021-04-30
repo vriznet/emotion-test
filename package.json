@@ -4,6 +4,7 @@
     "@babel/core": "7.x.x",
     "@babel/preset-env": "7.x.x",
     "@babel/preset-react": "7.x.x",
+    "@emotion/babel-plugin": "^11.3.0",
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.3.0",
     "babel-loader": "8.x.x",

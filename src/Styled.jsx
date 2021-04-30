@@ -9,7 +9,7 @@ const WithButton = Button.withComponent('button');
 
 const ParentOfButton = styled.div`
   ${Button} {
-    color: 'green';
+    color: green;
   }
 `;
 
