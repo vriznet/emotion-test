@@ -55,11 +55,13 @@ const Nester = styled('span')`
 const Container = styled.div((props) => ({
   display: 'flex',
   flexDirection: props.column && 'column',
+  marginBottom: '30px',
 }));
 
 const Styled = () => {
   return (
     <>
+      <h1>Styled</h1>
       <Container column>
         <Button>This is a regular button</Button>
         <Button primary>This is a primary button</Button>
