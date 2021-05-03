@@ -39,7 +39,7 @@ const Css = () => {
   );
 
   return (
-    <p>
+    <>
       <h1>CSS</h1>
       <div
         id="container"
@@ -73,7 +73,7 @@ const Css = () => {
           This is small article text for checking style precedence
         </SmallArticleText>
       </div>
-    </p>
+    </>
   );
 };
 
