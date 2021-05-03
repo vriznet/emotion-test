@@ -11,6 +11,7 @@ const Composition = () => {
   `;
   return (
     <>
+      <h1>Composition</h1>
       <div css={[danger, base]}>
         This is [danger, base], so color is turquoise.
       </div>
