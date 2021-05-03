@@ -4,12 +4,14 @@ import './app.css';
 
 import Styled from './Styled.jsx';
 import Css from './Css.jsx';
+import Composition from './Composition.jsx';
 
 const App = () => {
   return (
     <>
       <Css />
       <Styled />
+      <Composition />
     </>
   );
 };
